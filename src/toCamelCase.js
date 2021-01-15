@@ -15,11 +15,10 @@ function toCamelCase(str) {
       capitalize = true;
       continue;
     }
-    if (str[i] !== '_') {
-      chars = chars + a;
-    }
+
+    chars = chars + a;
   }
   return chars;
 }
 
-console.log(toCamelCase(''));
+console.log(toCamelCase('hello+nigga'));
