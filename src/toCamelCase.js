@@ -20,5 +20,3 @@ function toCamelCase(str) {
   }
   return chars;
 }
-
-console.log(toCamelCase('hello+nigga'));
